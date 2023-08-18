@@ -1,0 +1,125 @@
+#header {
+    text-align: center;
+    color: darkgrey;
+}
+
+#banner {
+    margin-bottom: 15px;
+}
+
+.list {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.list h1 {
+    color: darkgrey;
+}
+
+.list h1:hover {
+    color: brown;
+}
+
+.list h2 {
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    /* padding mengatur ukuran di dalam content */
+    padding: 2px;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+    /* border-radius: 8px; */
+}
+
+.cover {
+    width: 100%;
+    height: 350px;
+    /* background-color: blue; */
+}
+
+.cover img {
+    height: 100%;
+    width: 100%;
+    /* Object-fit: cover untuk membuat layout menyesuakian parent */
+    object-fit: cover;
+}
+
+.description {
+    padding: 50px;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description-text {
+    width: 60%;
+    padding: 18px 0;
+    background-color: red;
+}
+
+.description-image {
+    width: 30%;
+    padding: 2px 0;
+}
+
+.description-image-cover {
+    width: 90%;
+    padding: 8px;
+    height: 300px;
+}
+
+.description-image-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px double black;
+    border-radius: 8px;
+}
+
+.testimoni {
+    width: 90%;
+    padding: 60px 45px;
+    background-color: #393e46;
+    margin: 0 auto;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimoni-cover {
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    border: 4px solid #d65a31;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+.testimoni-text {
+    width: 60%;
+    padding: 18px;
+    /* background-color: white; */
+    text-transform: capitalize;
+    color: white;
+}
+
+.footer {
+    padding: 10px;
+    background-color: #393e46;
+    color: white;
+}
+
+.footer-list li {
+    list-style-type: none;
+    margin-left: 30px;
+}
